@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f6f9;
+}
+
+/* menu lateral */
+.sidebar {
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.contenido {
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+
+
+
+.contenido h1 {
+    color: #212529;
+}
+
+
+.card {
+    max-width: 100%;
+}
+
+.card.form-card {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* TOPBAR */
+.topbar {
+    height: 52px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.topbar-user {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.topbar-user:hover {
+    color: #0d6efd;
+}
+
+/* Avatar circular */
+.avatar {
+    width: 34px;
+    height: 34px;
+    background: #e5e7eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #374151;
+    font-size: 14px;
+}
+
+.username {
+    font-size: 14px;
+}
+
+/* Dropdown más fino */
+.dropdown-menu {
+    border-radius: 8px;
+    font-size: 14px;
+}
